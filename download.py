@@ -1,3 +1,4 @@
+import os
 import  json as js
 import requests
 from genericpath import exists
@@ -21,3 +22,7 @@ for downloadimg in range(images_nums):
       f.write(res.content)
       f.close()
       print("图片 ",lognum,"已经保存！")
+
+# 清除JSON文件
+file.close() # 关闭打开的JSON文件
+os.remove(json_path)
