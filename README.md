@@ -15,9 +15,9 @@
 
 # 使用的工具
 + 1.Python 3.9.5
-+ 2.[^requests]:pip install requests
-+ 3.[^html5lib]:pip install html5lib
-+ 4.[^BeautifulSoup4]:pip install bs4
++ 2.requests:`pip install requests`
++ 3.html5lib:`pip install html5lib`
++ 4.BeautifulSoup4:`pip install bs4`
 + 5.[VSCode](https://code.visualstudio.com/#alt-downloads)
 
 ******
