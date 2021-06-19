@@ -1,2 +1,2 @@
-import maingeturl
+import parsingurl
 import download

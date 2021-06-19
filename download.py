@@ -3,7 +3,7 @@ import requests
 from genericpath import exists
 
 
-json_path = "" # maingeturl.py得到的json文件路径，如：D:\\url.json
+json_path = "imglist.json" # parsingurl.py得到的json文件路径，如：D:\\url.json
 file = open(json_path)
 images_urls=js.load(file)
 images_nums = len(images_urls)
@@ -15,7 +15,7 @@ for downloadimg in range(images_nums):
     lognum += 1
     tmp = str(lognum)
     res = requests.get(images_urls[tmp],headers=user_agent)
-    save_path = "图片保存位置" + images_urls[tmp].split("/")[-1]  # 定义图片保存位置
+    save_path = "" + images_urls[tmp].split("/")[-1]  # 定义图片保存位置
     print("开始下载第",lognum,"张图片")
     with open(save_path, 'wb') as f:
       f.write(res.content)
