@@ -1,4 +1,4 @@
-# Here is [English Verion Read Me](https://github.com/Coconutat/Get_wallhaven_wallpaper_and_downloads/wiki/Read-Me-English-Version). 
+# Here is [English Version Read Me](https://github.com/Coconutat/Get_wallhaven_wallpaper_and_downloads/wiki/Read-Me-English-Version). 
 # 这是什么
 我的~~期末考试的作业~~，现在是属于日常作业了，但是算打分里比较高的。     
 至少代码能用。      
